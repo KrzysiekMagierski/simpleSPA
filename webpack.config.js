@@ -38,6 +38,9 @@ module.exports = {
     compress: true,
     port: 9001,
     hot: true,
-    watchContentBase: true
+    watchContentBase: true,
+    historyApiFallback: {
+      index: 'index.html'
+    }
   }
 };
